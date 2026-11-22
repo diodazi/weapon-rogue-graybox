@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed25fcc48ca6fab409c1310e5c726aa9, type: 3}
+  m_Name: PrototypeSettings
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponGraybox.GrayboxSettings
+  Status: 'PROTOTYPE_ONLY: these values are experiments, not approved balance. Dash slots 2 and recharge 1.5s follow the current baseline.'
+  Rules:
+    MaxPosture: 100
+    BladeDamageMultiplier: 0.65
+    HiltDamageMultiplier: 1.4
+    BrokenDamageMultiplier: 1.5
+    BreakDuration: 1.1
+    PostBreakLockDuration: 0.8
+    PostureDecayDelay: 1.2
+    PostureDecayPerSecond: 20
+    ChargeDuration: 0.65
+    DashCapacity: 2
+    DashRechargeSeconds: 1.5
+    DashStartupDuration: 0.05
+    DashMiddleDuration: 0.18
+    DashRecoveryDuration: 0.07
+    ParryProtectionDuration: 0.06
+    ParryAttackerPressure: 24
+    ParryDefenderPressure: 8
+    PreciseParryExtraPressure: 16
+  HardPlayerHP: 100
+  PartyPlayerHP: 240
+  BossHP: 420
+  MoveSpeed: 5.5
+  MoveAcceleration: 48
+  JumpImpulse: 8.5
+  DashSpeed: 15
+  AngularGain: 30
+  AngularAcceleration: 18000
+  LightStartup: 0.18
+  LightActive: 0.26
+  LightRecovery: 0.28
+  HeavyStartup: 0.36
+  HeavyActive: 0.32
+  HeavyRecovery: 0.4
+  LightDamage: 12
+  HeavyDamage: 24
+  OrdinaryHitPosture: 3
+  HitStun: 0.13
+  ParryRecovery: 0.23
+  Knockback: 3.4
+  CancelWindowStart: 0.02
+  CancelWindowEnd: 0.1
+  DeriveBuffer: 0.16
+  ApproachImpulse: 1.1
+  BossStartup: 0.7
+  BossActive: 0.32
+  BossRecovery: 0.65
+  BossThinkDelay: 0.65
+  BossMoveSpeed: 2.4
+  BossDamage: 18
+  BossAttackRange: 2.8
+  BossArmorDuration: 3.2
+  NormalParryInputEarliest: 0.08
+  NormalParryInputLate: 0.1
+  PreciseParryInputLead: 0.24
+  PreciseParryInputLate: 0.04

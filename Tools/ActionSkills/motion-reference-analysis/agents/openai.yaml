@@ -1,0 +1,4 @@
+interface:
+  display_name: "动作参考拆解与研究"
+  short_description: "分析武术与动画参考的轨迹、节奏和衔接，区分观察事实与二维改编"
+  default_prompt: "使用 $motion-reference-analysis，拆解这份动作参考并整理可用于二维游戏的运动规律。"

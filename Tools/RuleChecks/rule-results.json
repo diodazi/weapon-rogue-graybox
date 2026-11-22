@@ -1,0 +1,119 @@
+{
+  "suite": "engine_independent_combat_invariants",
+  "passed": 28,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "parry protects HP only, not posture or control",
+      "passed": true
+    },
+    {
+      "name": "normal dash has no invulnerability in its middle",
+      "passed": true
+    },
+    {
+      "name": "charged dash protects all four effects only in middle",
+      "passed": true
+    },
+    {
+      "name": "normal and charged dash consume the same two slots",
+      "passed": true
+    },
+    {
+      "name": "duplicate dash command cannot consume or create another dash",
+      "passed": true
+    },
+    {
+      "name": "duplicate tick ID cannot accelerate recharge",
+      "passed": true
+    },
+    {
+      "name": "serial recovery grants one slot per deadline and respects capacity",
+      "passed": true
+    },
+    {
+      "name": "early dash exit removes only dash protection",
+      "passed": true
+    },
+    {
+      "name": "charge is cleared by release and non-charge action",
+      "passed": true
+    },
+    {
+      "name": "incomplete charge never grants dash enhancement",
+      "passed": true
+    },
+    {
+      "name": "break duration is fixed under repeated hits",
+      "passed": true
+    },
+    {
+      "name": "break exit restores control but locks zero posture, not HP",
+      "passed": true
+    },
+    {
+      "name": "armor takes HP damage but locks posture and control",
+      "passed": true
+    },
+    {
+      "name": "special full posture waits until armor expires to break",
+      "passed": true
+    },
+    {
+      "name": "blade and hilt change HP only",
+      "passed": true
+    },
+    {
+      "name": "one attacker two successful defenders gives one attacker increment",
+      "passed": true
+    },
+    {
+      "name": "new parry protection cannot swallow same-exchange failed defense",
+      "passed": true
+    },
+    {
+      "name": "two attacks one defense preserves one failed hit",
+      "passed": true
+    },
+    {
+      "name": "simultaneous failed hits use pre-exchange break damage in either order",
+      "passed": true
+    },
+    {
+      "name": "ordinary sequential hits still observe a break caused by the previous hit",
+      "passed": true
+    },
+    {
+      "name": "simultaneous failed hits preserve existing protection and control states in either order",
+      "passed": true
+    },
+    {
+      "name": "lethal simultaneous hits have order-independent posture and cleanup",
+      "passed": true
+    },
+    {
+      "name": "pre-existing HP protection still applies to failed defense",
+      "passed": true
+    },
+    {
+      "name": "duplicate pair in one exchange is settled once",
+      "passed": true
+    },
+    {
+      "name": "armored incoming attack cannot be parried",
+      "passed": true
+    },
+    {
+      "name": "lobby infinite HP does not grant posture immunity",
+      "passed": true
+    },
+    {
+      "name": "large tick preserves break and recovery timeline",
+      "passed": true
+    },
+    {
+      "name": "invalid numeric state is rejected",
+      "passed": true
+    }
+  ]
+}

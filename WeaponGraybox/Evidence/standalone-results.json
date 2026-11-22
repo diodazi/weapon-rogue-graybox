@@ -1,0 +1,132 @@
+{
+    "unity": "6000.6.5f1",
+    "passed": 25,
+    "failed": 0,
+    "checks": [
+        {
+            "name": "Chinese HUD created",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "weapon selection 0",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "weapon selection 1",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "weapon selection 2",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "lobby infinite HP for both actors",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "cannot start outside ready zone",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "movement uses physics",
+            "detail": "dx=1.403008",
+            "passed": true
+        },
+        {
+            "name": "jump leaves ground",
+            "detail": "dy=0.9701833",
+            "passed": true
+        },
+        {
+            "name": "quick S tap does not leave charging held",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "moving cancels incomplete charge",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "stationary hold reaches full charge",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "charged dash middle has protection and consumes one slot",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "charged dash moves and protection expires",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "normal dash shares slots and has no protection",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "serial recharge awards one slot",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "right-hand ready zone is detected",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "confirmed ready zone enters finite-HP battle",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "rotating blade produces real hit once",
+            "detail": "HP loss=7.799988",
+            "passed": true
+        },
+        {
+            "name": "lingering contact does not repeat same attack damage",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "real blade precise parry",
+            "detail": "精确弹反 · 真实碰刃 · 攻击方架势增加",
+            "passed": true
+        },
+        {
+            "name": "real blade normal parry",
+            "detail": "弹反 · 真实碰刃 · 攻击方架势增加",
+            "passed": true
+        },
+        {
+            "name": "timing without contact does not parry",
+            "detail": "大厅：双方无限血量。试打后前往最右侧准备区。",
+            "passed": true
+        },
+        {
+            "name": "party HP preset selected",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "boss death reaches victory result",
+            "detail": "",
+            "passed": true
+        },
+        {
+            "name": "player death reaches defeat result",
+            "detail": "",
+            "passed": true
+        }
+    ]
+}

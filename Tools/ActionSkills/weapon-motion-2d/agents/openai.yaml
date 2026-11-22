@@ -1,0 +1,4 @@
+interface:
+  display_name: "2D 兵器动作指导"
+  short_description: "将中西兵器动作转为可读的二维攻击、移动、关键姿势与游戏交接规格"
+  default_prompt: "使用 $weapon-motion-2d，根据项目规则与参考，为武器设计可读的二维攻击和移动动作。"

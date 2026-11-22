@@ -1,0 +1,14 @@
+{
+  "verifiedAt": "2026-10-18T17:49:35.0326879+08:00",
+  "rulesPassed": 28,
+  "rulesFailed": 0,
+  "editorPassed": 25,
+  "editorFailed": 0,
+  "standalonePassed": 25,
+  "standaloneFailed": 0,
+  "buildResult": "Succeeded",
+  "buildErrors": 0,
+  "buildWarnings": 3,
+  "gameAssemblySha256": "BE1963B5F08F387373287F7DA98C671B59370DB2B3BF9CE14101FA8363C55D5B",
+  "scope": "Single-player keyboard graybox; injected action queues and real physics; manual keyboard feel not approved"
+}

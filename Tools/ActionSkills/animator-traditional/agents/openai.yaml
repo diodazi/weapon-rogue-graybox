@@ -1,0 +1,4 @@
+interface:
+  display_name: "传统动画与关键姿势"
+  short_description: "运用传统动画原则规划关键姿势、时间节奏、运动弧线与跟随动作"
+  default_prompt: "使用 $animator-traditional，检查这段手绘动作的关键姿势、节奏、重量感和清晰度。"
